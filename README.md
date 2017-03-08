@@ -10,6 +10,8 @@ Plays TCP SYNs and UDP packets as sound and visualizes port numbers and source a
 
 - libsdl2: `sudo apt-get install libsdl2-dev`
 
+- libfftw3: `sudo apt-get install libfftw3-dev`
+
 ## 2. Compile:
 
 ``gcc -O3 syn2snd.c `sdl2-config --cflags --libs` -lpcap -lao -lm -lfftw3 -o syn2snd``
