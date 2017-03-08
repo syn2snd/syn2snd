@@ -62,13 +62,8 @@ void audio_callback(void *data, Uint8 * stream, int len)
 		in[i] = 0.0;
 		for (j = 0; j < step_size; j++) {
 			int intensity =
-				max(0,
-					SOUND_MAX_INTENSITY - SOUND_DECAY_FACTOR * (iteration -
-																last_seen[i
-																		  *
-																		  step_size
-																		  +
-																		  j]));
+				max(0, SOUND_MAX_INTENSITY - SOUND_DECAY_FACTOR * (iteration -
+																last_seen[i * step_size + j]));
 			if (intensity)
 				active_ports++;
 			in[i] = max(in[i], intensity);
