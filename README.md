@@ -10,7 +10,7 @@ Plays TCP SYNs and UDP packets as sound and visualizes port numbers and source a
 
 ## 2. Compile:
 
-`gcc -O3 syn2snd.c `sdl2-config --cflags --libs` -lpcap -lao -lm -lfftw3 -o syn2snd`
+``gcc -O3 syn2snd.c `sdl2-config --cflags --libs` -lpcap -lao -lm -lfftw3 -o syn2snd``
 
 ## 3. Enable execution as regular user:
 
