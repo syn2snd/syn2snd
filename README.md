@@ -2,6 +2,8 @@
 
 Plays TCP SYNs and UDP packets as sound and visualizes port numbers and source addresses on a grid.
 
+[https://raw.githubusercontent.com/syn2snd/syn2snd/master/syn2snd.png](https://www.youtube.com/watch?v=QS1wooQQcp0)
+
 ## 1. Install requirements:
 
 - libpcap: `sudo apt-get install libpcap-dev`
