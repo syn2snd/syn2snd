@@ -1,4 +1,4 @@
-# syn2snd: port scan audibilizator and visualizer
+# syn2snd: port scan audibilizer and visualizer
 
 Plays TCP SYNs and UDP packets as sound and visualizes port numbers and source addresses on a grid.
 
